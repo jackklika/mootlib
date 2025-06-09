@@ -116,7 +116,7 @@ class MootlibMatcher:
         for decrypting market data.
     """
 
-    GITHUB_RELEASE_URL = "https://github.com/vigji/mootlib/releases/download/latest/markets.parquet.encrypted"
+    GITHUB_RELEASE_URL = "https://github.com/jackklika/mootlib/releases/download/latest/markets.parquet.encrypted"
     TEMP_DIR = Path(tempfile.gettempdir()) / "mootlib"
 
     def __init__(

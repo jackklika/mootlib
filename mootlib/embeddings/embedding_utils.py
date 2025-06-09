@@ -33,7 +33,7 @@ def compute_string_hash(text: str) -> str:
 class EmbeddingsCache:
     """Cache for embeddings."""
 
-    GITHUB_RELEASE_URL = "https://github.com/vigji/mootlib/releases/download/latest/embeddings.parquet.encrypted"
+    GITHUB_RELEASE_URL = "https://github.com/jackklika/mootlib/releases/download/latest/embeddings.parquet.encrypted"
 
     def __init__(
         self,
